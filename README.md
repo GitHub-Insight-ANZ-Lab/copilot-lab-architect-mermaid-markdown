@@ -1,7 +1,25 @@
-# GitHub Copilot lab for Architects
-A hands-on lab to introduce architects to working with GitHub Copilot to generate diagrams using Mermaid and documentation in Markdown format. You do not need to have any prior experience with Mermaid or Markdown to complete this lab!
+# GitHub Copilot lab for Leads & Architects
+A hands-on lab to introduce leads & architects to working with GitHub Copilot to understand code, generate documentation in Markdown format, generate diagrams using Mermaid and using Copilot for code reviews. You do not need to have any prior experience with Mermaid or Markdown to complete this lab!
 
-**Proposed duration:** 40-60 minutes (excluding prerequisites setup).
+> [!IMPORTANT]  
+> My aim is to cover the below content - this is currently a WIP - happy for anyone to contribute:
+> Copilot Business:
+> - Explain this solution / codebase
+> - Ask for suggestions / improvements around insecure coding practices
+> - Document methods / classes
+> - Generate a README.md file that gives new developers guidance on how to get up and going with the solution
+> - Generate diagrams using mermaid
+> 	- ERD
+>  	- Sequence Diagram
+> 	- Azure Solution Architecture
+> 	
+> Copilot Enterprise:
+> - Query a repo
+> - PR descriptions
+> - PR Review with Copilot
+> - Building a knowledge base
+
+**Proposed duration:** 60-120 minutes (excluding prerequisites setup).
 
 ## Prerequisites
 
@@ -9,7 +27,7 @@ A hands-on lab to introduce architects to working with GitHub Copilot to generat
 - [GitHub Copilot](https://copilot.github.com/) installed and licensed
 - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) extension for Visual Studio Code
 
-## Lab 1: Introduction to GitHub Copilot
+## Pre Lab Setup
 Setting Up GitHub Copilot in Visual Studio Code:
 1. **Install Visual Studio Code:**
     - If you haven't already, download and install Visual Studio Code from [here](https://code.visualstudio.com/).
@@ -44,8 +62,29 @@ Setting Up GitHub Copilot in Visual Studio Code:
 
 By the end of this step, you should have GitHub Copilot installed and be familiar with its basic functionality, including code completions, chat, and inline chat in Visual Studio Code.
 
-## Lab 2: Creating Diagrams with Mermaid
+> [!IMPORTANT]  
+> Lab 1 to 5 require a GitHub Copilot Business license
 
-## Lab 3: Advanced Markdown Documentation
+## Lab 1: Exploring an Existing Codebase
 
-## Lab 4: Generating Documentation for Existing Code
+## Lab 2: Improvements and Secure Coding Practices
+
+## Lab 3: Documenting an Existing Solution
+
+## Lab 4: Generating Markdown Documentation
+
+## Lab 5: Generating Diagrams with Mermaid
+
+> [!IMPORTANT]  
+> Lab 6 to 9 require a GitHub Copilot Enterprise license
+
+## Lab 6: Query a Repo with Copilot in GitHub.com
+
+## Lab 7: Generate a PR description with Copilot
+
+## Lab 8: PR Review with Copilot
+
+## Lab 9: Building a Copilot Knowledge Base
+
+## Conclusion
+...the lab conclusion!
