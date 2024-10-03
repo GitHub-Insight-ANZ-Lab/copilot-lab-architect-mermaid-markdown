@@ -1,4 +1,4 @@
-# GitHub Copilot lab for Leads & Architects
+# GitHub Copilot Lab for Leads & Architects
 A hands-on lab to introduce leads & architects to working with GitHub Copilot to understand code, generate documentation in Markdown format, generate diagrams using Mermaid and using Copilot for code reviews. You do not need to have any prior experience with Mermaid or Markdown to complete this lab!
 
 > [!IMPORTANT]  
