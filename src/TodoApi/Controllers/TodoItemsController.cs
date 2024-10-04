@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Data;
 using TodoApi.Data.Models;
-using TodoApi.Models;
+using TodoApi.Dto;
 
 namespace TodoApi.Controllers
 {
@@ -10,7 +10,6 @@ namespace TodoApi.Controllers
     [ApiController]
     public class TodoItemsController(TodoContext context) : ControllerBase
     {
-        // GET: api/TodoItems
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItemDto>>> GetTodoItems()
         {
@@ -19,7 +18,6 @@ namespace TodoApi.Controllers
                 .ToListAsync();
         }
 
-        // GET: api/TodoItems/5
         [HttpGet("{id:long}")]
         public async Task<ActionResult<TodoItemDto>> GetTodoItem(long id)
         {
@@ -33,7 +31,6 @@ namespace TodoApi.Controllers
             return ItemToDto(todoItem);
         }
 
-        // PUT: api/TodoItems/5
         [HttpPut("{id:long}")]
         public async Task<IActionResult> PutTodoItem(long id, TodoItemDto todoItemDto)
         {
@@ -63,7 +60,7 @@ namespace TodoApi.Controllers
             return NoContent();
         }
 
-        // POST: api/TodoItems
+        
         [HttpPost]
         public async Task<ActionResult<TodoItemDto>> PostTodoItem(TodoItemDto todoItemDto)
         {
@@ -82,7 +79,7 @@ namespace TodoApi.Controllers
                 ItemToDto(todoItem));
         }
 
-        // DELETE: api/TodoItems/5
+        
         [HttpDelete("{id:long}")]
         public async Task<IActionResult> DeleteTodoItem(long id)
         {
@@ -104,7 +101,7 @@ namespace TodoApi.Controllers
         }
 
         private static TodoItemDto ItemToDto(TodoItem todoItem) =>
-            new TodoItemDto
+            new()
             {
                 Id = todoItem.Id,
                 Name = todoItem.Name,

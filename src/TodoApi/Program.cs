@@ -1,11 +1,11 @@
-using Microsoft.EntityFrameworkCore;
-using TodoApi.Data;
+using TodoApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+const string connectionString = "Server=localhost;Database=TodoList;User Id=sa;Password=Password123!;";
+
 builder.Services.AddControllers();
-builder.Services.AddDbContext<TodoContext>(opt =>
-    opt.UseInMemoryDatabase("TodoList"));
+builder.Services.AddTodoDbContext(connectionString);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
