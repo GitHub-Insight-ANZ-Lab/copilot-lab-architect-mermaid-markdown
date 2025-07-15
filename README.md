@@ -121,27 +121,27 @@ For example, create a mermaid markdown for `PutTodoItem` under `src/TodoApi/Cont
 
 In this lab, we will explore how to query a repository using GitHub Copilot in the GitHub.com interface. This feature allows you to ask questions about the codebase and get insights directly from the repository.
 
-![](res\ghcom-1.png)
+![](res/ghcom-1.png)
 
-![](res\ghcom-2.png)
+![](res/ghcom-2.png)
 
 ## Lab 7: Generate a Commit or PR description with Copilot
 
 GitHub Copilot can generate commit and pull request (PR) description. This feature helps streamline the code update process by automatically generating a description based on the changes made in the code.
 
-![](res\prsummary.png)
+![](res/prsummary.png)
 
 ## Lab 8: PR Review with Copilot
 
 GitHub Copilot can also assist with pull request (PR) reviews. Copilot can help identify potential issues, suggest improvements, and provide insights into the code changes.
 
-![](res\prreview.png)
+![](res/prreview.png)
 
 ## Lab 9: Building a Copilot Knowledge Base
 
 We can build a knowledge base using GitHub Copilot. This feature allows you to create a repository of reusable code snippets, documentation, and best practices that can be easily accessed and shared within your team.
 
-![](res\kb.png)
+![](res/kb.png)
 
 
 ## Conclusion
