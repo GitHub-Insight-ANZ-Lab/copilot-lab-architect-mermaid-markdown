@@ -33,16 +33,21 @@ The labs you can complete depend on your GitHub Copilot license type:
 - Building a knowledge base
 
 ## Lab Setup
-Setting Up GitHub Copilot in Visual Studio Code:
+
+Setting Up GitHub Copilot in Visual Studio Code. 
+
 1. **Install Visual Studio Code:**
     - If you haven't already, download and install Visual Studio Code from [here](https://code.visualstudio.com/).
+
 2. **Install GitHub Copilot:**
     - Open Visual Studio Code.
     - Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Cmd+Shift+X`.
     - Search for "GitHub Copilot" and click the "Install" button.
+
 3. **Sign In to GitHub Copilot:**
     - After installation, you will be prompted to sign in to GitHub Copilot.
     - Follow the on-screen instructions to authenticate with your GitHub account.
+
 4. **Verify Installation:**
     - Open a new file in Visual Studio Code.
     - Start typing a comment or a piece of code, and you should see suggestions from GitHub Copilot.
@@ -51,12 +56,14 @@ Setting Up GitHub Copilot in Visual Studio Code:
 ## Getting started
 
 1. **Basic Usage:**
+
     - Create a new JavaScript file (`example.js`).
     - Start typing a function definition, e.g. `function add(a, b) {`.
     - Observe how GitHub Copilot suggests the implementation of the function.
     - Accept the suggestion by pressing `Tab`.
-    - 
+    
 2. **Exploring Different Features:**
+
     - **Code Completions:**
         - Start typing a comment or code, and GitHub Copilot will provide inline suggestions.
         - Accept suggestions by pressing `Tab`.
@@ -75,13 +82,14 @@ By the end of this step, you should have GitHub Copilot installed and be familia
 > Lab 1 to 5 require a GitHub Copilot Business license
 
 ## Lab 1: Exploring an Existing Codebase
-In this lab we will use Copilot to explore and familiarise ourselves with a new codebase.
+Please use Copilot to explore and familiarise ourselves with the TodoAPI codebase under `src` folder
 
 ## Lab 2: Improvements and Secure Coding Practices
-In this lab we will use Copilot to identify potential issues with the codebase and suggest improvements.
+Now Copilot to identify potential issues with the codebase and suggest improvements. For example, we can look for potential security issues, performance improvements, or code quality enhancements.
 
-## Lab 3: Documenting an Existing Solution
-In this lab we will use Copilot to generate documentation for existing code which lacks comments or documentation.
+## Lab 3: Documenting an Existing Code
+
+Copilot can help with generating documentation for existing code which lacks comments or documentation.
 
 1. Navigate to the `TodoItemsController.cs` file located within the `src/TodoApi/Controllers` folder.
 2. Highlight the `GetTodoItems()` method, bring up the inline chat popup and use the `/docs` command to generate documentation for the method.
@@ -89,8 +97,9 @@ In this lab we will use Copilot to generate documentation for existing code whic
 4. Navigate to the `DbContextExtensions.cs` file located in the `src/TodoItems/Extensions` folder.
 5. Use Copilot to update the incorrect documentation to match the extension method logic.
  
-## Lab 4: Generating Markdown Documentation
-In this lab we will use Copilot to generate markdown documentation for our existing .NET API solution. 
+## Lab 4: Generating Markdown Documentation for repository
+
+We can also use Copilot to generate markdown documentation for our existing .NET API solution. 
 
 When new developers start working on an existing solution, one of the first tasks they face is cloning the solution, installing the required developer dependencies and running the solution locally. A well written README.md file is a great place to give an overview of a repository and how to get started.
 
@@ -100,6 +109,10 @@ When new developers start working on an existing solution, one of the first task
 4. Use a combination of inline completions and inline chat to build out your `README.md` file. By the end this should have enough information for a new developer to get started with your solution.
 
 ## Lab 5: Generating Diagrams with Mermaid
+
+GitHub Copilot can also help generate diagrams using Mermaid syntax, which can be rendered in Markdown files. This is particularly useful for visualizing complex systems, workflows, or data models.
+
+For example, create a mermaid markdown for `PutTodoItem` under `src\TodoApi\Controllers\TodoItemsController.cs` as sequence diagram. Once saved the file as `PutTodoItem.md`, you can preview the diagram using mermaid plugin.
 
 > [!IMPORTANT]  
 > Lab 6 to 9 require a GitHub Copilot Enterprise license
