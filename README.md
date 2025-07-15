@@ -1,8 +1,6 @@
 # GitHub Copilot Lab for Leads & Architects
 
-A hands-on lab to introduce leads & architects to working with GitHub Copilot to understand code, generate documentation in Markdown format, generate diagrams using Mermaid and using Copilot for code reviews. You do not need to have any prior experience with Mermaid or Markdown to complete this lab!
-
-There is an ASP.NET Core 8 REST API included as the solution to document & understand.
+A hands-on lab to introduce leads & architects to working with GitHub Copilot to understand code, generate documentation in Markdown format, generate diagrams using Mermaid and using Copilot for code reviews. You do not need to have any prior experience with Mermaid or Markdown to complete this lab! There is an ASP.NET Core 8 REST API included as the solution to document & understand.
 
 **Proposed duration:** 60-120 minutes (excluding prerequisites setup).
 
@@ -114,16 +112,37 @@ GitHub Copilot can also help generate diagrams using Mermaid syntax, which can b
 
 For example, create a mermaid markdown for `PutTodoItem` under `src\TodoApi\Controllers\TodoItemsController.cs` as sequence diagram. Once saved the file as `PutTodoItem.md`, you can preview the diagram using mermaid plugin.
 
+![Mermaid Diagram Display](res\mermaid-display.png)
+
 > [!IMPORTANT]  
 > Lab 6 to 9 require a GitHub Copilot Enterprise license
 
 ## Lab 6: Query a Repo with Copilot in GitHub.com
 
-## Lab 7: Generate a PR description with Copilot
+In this lab, we will explore how to query a repository using GitHub Copilot in the GitHub.com interface. This feature allows you to ask questions about the codebase and get insights directly from the repository.
+
+![](res\ghcom-1.png)
+
+![](res\ghcom-2.png)
+
+## Lab 7: Generate a Commit or PR description with Copilot
+
+GitHub Copilot can generate commit and pull request (PR) description. This feature helps streamline the code update process by automatically generating a description based on the changes made in the code.
+
+![](res\prsummary.png)
 
 ## Lab 8: PR Review with Copilot
 
+GitHub Copilot can also assist with pull request (PR) reviews. Copilot can help identify potential issues, suggest improvements, and provide insights into the code changes.
+
+![](res\prreview.png)
+
 ## Lab 9: Building a Copilot Knowledge Base
+
+We can build a knowledge base using GitHub Copilot. This feature allows you to create a repository of reusable code snippets, documentation, and best practices that can be easily accessed and shared within your team.
+
+![](res\kb.png)
+
 
 ## Conclusion
 
