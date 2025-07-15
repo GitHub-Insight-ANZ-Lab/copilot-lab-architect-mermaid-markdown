@@ -83,7 +83,7 @@ By the end of this step, you should have GitHub Copilot installed and be familia
 Please use Copilot to explore and familiarise ourselves with the TodoAPI codebase under `src` folder
 
 ## Lab 2: Improvements and Secure Coding Practices
-Now Copilot to identify potential issues with the codebase and suggest improvements. For example, we can look for potential security issues, performance improvements, or code quality enhancements.
+Now use Copilot to identify potential issues with the codebase and suggest improvements. For example, we can look for potential security issues, performance improvements, or code quality enhancements.
 
 ## Lab 3: Documenting an Existing Code
 
