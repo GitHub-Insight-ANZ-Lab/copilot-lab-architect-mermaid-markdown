@@ -32,7 +32,7 @@ The labs you can complete depend on your GitHub Copilot license type:
 - PR Review with Copilot
 - Building a knowledge base
 
-## Pre Lab Setup
+## Lab Setup
 Setting Up GitHub Copilot in Visual Studio Code:
 1. **Install Visual Studio Code:**
     - If you haven't already, download and install Visual Studio Code from [here](https://code.visualstudio.com/).
@@ -47,12 +47,16 @@ Setting Up GitHub Copilot in Visual Studio Code:
     - Open a new file in Visual Studio Code.
     - Start typing a comment or a piece of code, and you should see suggestions from GitHub Copilot.
     - If you see suggestions, GitHub Copilot is successfully installed and ready to use.
-5. **Basic Usage:**
+  
+## Getting started
+
+1. **Basic Usage:**
     - Create a new JavaScript file (`example.js`).
     - Start typing a function definition, e.g. `function add(a, b) {`.
     - Observe how GitHub Copilot suggests the implementation of the function.
     - Accept the suggestion by pressing `Tab`.
-6. **Exploring Different Features:**
+    - 
+2. **Exploring Different Features:**
     - **Code Completions:**
         - Start typing a comment or code, and GitHub Copilot will provide inline suggestions.
         - Accept suggestions by pressing `Tab`.
