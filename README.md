@@ -110,9 +110,9 @@ When new developers start working on an existing solution, one of the first task
 
 GitHub Copilot can also help generate diagrams using Mermaid syntax, which can be rendered in Markdown files. This is particularly useful for visualizing complex systems, workflows, or data models.
 
-For example, create a mermaid markdown for `PutTodoItem` under `src\TodoApi\Controllers\TodoItemsController.cs` as sequence diagram. Once saved the file as `PutTodoItem.md`, you can preview the diagram using mermaid plugin.
+For example, create a mermaid markdown for `PutTodoItem` under `src/TodoApi/Controllers/TodoItemsController.cs` as sequence diagram. Once saved the file as `PutTodoItem.md`, you can preview the diagram using mermaid plugin.
 
-![Mermaid Diagram Display](res\mermaid-display.png)
+![Mermaid Diagram Display](res/mermaid-display.png)
 
 > [!IMPORTANT]  
 > Lab 6 to 9 require a GitHub Copilot Enterprise license
