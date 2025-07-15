@@ -1,6 +1,8 @@
 {
-  "features": {
-    "ghcr.io/devcontainers/features/vscode-extensions:1": {
+  "name": "C# (.NET)",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0-bookworm",
+  "customizations": {
+    "vscode": {
       "extensions": ["bierner.markdown-mermaid", "github.copilot", "github.copilot-chat"]
     }
   }
