@@ -80,7 +80,7 @@ By the end of this step, you should have GitHub Copilot installed and be familia
 > Lab 1 to 5 require a GitHub Copilot Business license
 
 ## Lab 1: Exploring an Existing Codebase
-Please use Copilot to explore and familiarise ourselves with the TodoAPI codebase under `src` folder
+Please use Copilot to explore and familiarise yourself with the TodoAPI codebase under `src` folder
 
 ## Lab 2: Improvements and Secure Coding Practices
 Now use Copilot to identify potential issues with the codebase and suggest improvements. For example, we can look for potential security issues, performance improvements, or code quality enhancements.
