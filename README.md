@@ -1,34 +1,36 @@
 # GitHub Copilot Lab for Leads & Architects
+
 A hands-on lab to introduce leads & architects to working with GitHub Copilot to understand code, generate documentation in Markdown format, generate diagrams using Mermaid and using Copilot for code reviews. You do not need to have any prior experience with Mermaid or Markdown to complete this lab!
 
-> [!IMPORTANT]  
-> My aim is to cover the below content - this is currently a WIP - happy for anyone to contribute:
->
-> Copilot Business:
-> - Explain this solution / codebase
-> - Ask for suggestions / improvements around insecure coding practices
-> - Document methods / classes
-> - Generate a README.md file that gives new developers guidance on how to get up and going with the solution
-> - Generate diagrams using mermaid
-> 	- ERD
->  	- Sequence Diagram
-> 	- Azure Solution Architecture
-> 	
-> Copilot Enterprise:
-> - Query a repo
-> - PR descriptions
-> - PR Review with Copilot
-> - Building a knowledge base
->
-> There is an ASP.NET Core 8 REST API included as the solution to document & understand
+There is an ASP.NET Core 8 REST API included as the solution to document & understand.
 
 **Proposed duration:** 60-120 minutes (excluding prerequisites setup).
 
 ## Prerequisites
+To get started, please ensure you have these tools installed.
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub Copilot](https://copilot.github.com/) installed and licensed
 - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) extension for Visual Studio Code
+
+The labs you can complete depend on your GitHub Copilot license type:
+
+### Copilot Business:
+
+- Explain this solution / codebase
+- Ask for suggestions / improvements around insecure coding practices
+- Document methods / classes
+- Generate a README.md file that gives new developers guidance on how to get up and going with the solution
+- Generate diagrams using mermaid
+	- ERD
+ 	- Sequence Diagram
+	- Azure Solution Architecture
+	
+### Copilot Enterprise:
+- Query a repo
+- PR descriptions
+- PR Review with Copilot
+- Building a knowledge base
 
 ## Pre Lab Setup
 Setting Up GitHub Copilot in Visual Studio Code:
@@ -107,4 +109,11 @@ When new developers start working on an existing solution, one of the first task
 ## Lab 9: Building a Copilot Knowledge Base
 
 ## Conclusion
-...the lab conclusion!
+
+Congratulations on completing the GitHub Copilot Lab for Leads & Architects! 
+
+Through these hands-on exercises, you've explored how Copilot can accelerate code understanding, documentation, diagram generation, and code reviews. By leveraging Copilot’s capabilities in your workflow, you can improve productivity, enhance code quality, and onboard new team members more efficiently. 
+
+Continue experimenting with Copilot's features to unlock even greater value in your development projects. Happy coding!
+
+

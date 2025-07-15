@@ -1,0 +1,7 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/vscode-extensions:1": {
+      "extensions": ["bierner.markdown-mermaid", "github.copilot", "github.copilot-chat"]
+    }
+  }
+}
